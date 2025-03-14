@@ -11,7 +11,7 @@ CENTER = (WIDTH // 2, HEIGHT // 2)
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
 #загрузка изображений
-clock_face = pygame.image.load("mickeyclock.jpeg")
+clock_face = pygame.image.load("clock.png")
 clock_face = pygame.transform.scale(clock_face, (WIDTH, HEIGHT))
 
 right_hand = pygame.image.load("min_hand.png").convert_alpha()
